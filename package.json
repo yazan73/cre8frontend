@@ -6,7 +6,7 @@
     "start": "ng serve",
     "start:local": "ng serve --configuration local",
     "start:dev": "ng serve --configuration development",
-    "start:prod": "serve -s dist/client -l $PORT",
+    "start:prod": "ng serve -s dist/client -l $PORT",
     "build": "ng build",
     "lint": "eslint . --ext .ts,.html",
     "test": "ng test"
