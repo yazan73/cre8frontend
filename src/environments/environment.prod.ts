@@ -1,4 +1,6 @@
+﻿import { resolveApiUrl } from "./api-url";
+
 export const environment = {
   production: true,
-  apiUrl: 'https://api.cre8.com',
+  apiUrl: resolveApiUrl('https://cre8backend-production.up.railway.app'),
 };

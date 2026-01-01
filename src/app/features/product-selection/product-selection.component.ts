@@ -87,7 +87,7 @@ export class ProductSelectionComponent {
       hoodie:
         'https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=900&q=80',
     };
-    return fallback[product.type] ?? fallback.t_shirt;
+    return fallback[product.type] ?? fallback['t_shirt'];
   }
 
   selectProduct(product: Product) {
